@@ -2,6 +2,7 @@
 layout: post
 title:  "EC2 인스턴스 프로비저닝을 위한 Chef #1"
 categories: chef aws
+comments: true
 ---
 
 코드 기반의 서버 프로비저닝을 위한 도구로서 가장 널리 사용되고 있는 Chef! 그렇지만 초기 학습 커브가 만만치 않은 이 Chef를 AWS에서 사용하기 위한 용도로 Focus를 맞추어서 살펴 보고자 한다.
@@ -70,3 +71,4 @@ AWS의 Opsworks가 이 형태로 chef를 사용하고 있고, 보통 CloudFormat
 - [Chef Tutorial](https://learn.chef.io/tutorials/)
 - [AWS OpsWorks User Guide - Welcome](http://docs.aws.amazon.com/opsworks/latest/userguide/welcome.html)
 - [AWS CloudFormation Sample Template - Use Chef to deploy WordPress](https://s3-ap-northeast-2.amazonaws.com/cloudformation-templates-ap-northeast-2/WordPress_Chef.template)
+
