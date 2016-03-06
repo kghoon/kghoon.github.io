@@ -18,7 +18,7 @@ comments: true
 - 쉐프에게 필요한 요리책 (사실 쉐프님들은 요리책이 필요 없으시겠지만..)
 - 보통 하나의 목적을 가진다. 그 목적이 서버 인스턴스의 프로비저닝일 수도 있고, Redis나 Nginx와 같은 소프트웨어 스택일 수도 있다.
 - Cookbook은 recipe와 resource그리고 attribute들로 구성된다.
-- [Chef supermark](https://supermarket.chef.io) 이라는 repository가 있어서, 서로 공유할 수 있다.
+- [Chef supermarket](https://supermarket.chef.io) 이라는 repository가 있어서, 서로 공유할 수 있다.
 
 ### Recipe
 
