@@ -48,7 +48,8 @@ Recipe: code_generator::cookbook
 
 AWS Credential 설정
 ---
-#### 1. IAM User 생성하기
+
+### 1. IAM User 생성하기
 
 Test kitchen은 EC2를 생성하고, 또 삭제하며, 테스트 할 때마다 Cookbook 코드를 인스턴스 내에서 실행한다. 이런 작업을 하려면 위 동작에 대한 권한을 가져야 하고, 그런 권한은 IAM에 유저를 생성하여 부여할 수 있다.
 
@@ -57,7 +58,7 @@ IAM User 생성 과정은 [아마존 웹 서비스를 다루는 기술 16장 - 2
 위 내용에 따라 IAM 사용자를 생성하고, EC2에 대한 FullAccess를 부여하도록 한다.
 또한 Access Key ID와 Secret Access Key를 포함하고 있는 파일을 다운로드 받아서 잘 보관한다.
 
-#### 2. $HOME/.aws/credentials 생성
+### 2. $HOME/.aws/credentials 생성
 
 IAM User 생성 후 다운로드 된 CSV 파일을 열면 Access Key ID와 Secret Access Key가 있는 것을 볼수 있다. 해당 내용을 아래와 같이 `$HOME/.aws/credentials` 에 적어준다.
 
