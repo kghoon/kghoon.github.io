@@ -5,7 +5,7 @@ categories: chef
 comments: true
 ---
 
-EC2 인스턴스에 Tomcat을 설치하고 Sample application을 deploy하는 과정을 설명한
+EC2 인스턴스에 Tomcat을 설치하고 Sample application을 deploy하는 과정을 설명한다.
 
 Tomcat 설치
 -----
