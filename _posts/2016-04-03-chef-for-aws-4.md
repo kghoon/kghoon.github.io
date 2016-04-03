@@ -5,7 +5,7 @@ categories: chef aws
 comments: true
 ---
 
-EC2 인스턴스에 JDK, NGINX, Tomcat을 설치하고 Sample application을 Deploy하는 Chef Cookbook을 작성하는 과정을 설명한다.
+EC2 인스턴스에 Tomcat을 설치하고 Sample application을 deploy하는 과정을 설명한다
 
 Tomcat 설치
 -----
