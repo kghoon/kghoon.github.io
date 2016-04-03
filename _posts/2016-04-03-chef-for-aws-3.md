@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "EC2 인스턴스 프로비저닝을 위한 Chef #3"
-categories: chef aws
+categories: chef
 comments: true
 ---
 
-EC2 인스턴스에 JDK, NGINX, Tomcat을 설치하고 Sample application을 Deploy하는 Chef Cookbook을 작성하는 과정을 설명한다.
+EC2 인스턴스에 JDK를 설치하는 recipe를 작성한다.
 
-설치 과정 그려보기
+설치 과정을 생각해보자
 -----
 
 Amazon linux가 설치 된 초기 상태의 EC2 인스턴스에 SSH로 로그인해서 Java 8로 작성 된 Web application을 실행할 수 있는 환경을 만든다면 어떤 과정들이 필요할지를 먼저 생각해보자.
