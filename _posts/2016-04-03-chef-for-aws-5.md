@@ -234,6 +234,9 @@ nginx_site app_name
 
 Chef를 사용하여 기본적인 java web application을 프로비저닝하는 과정을 살펴보았다. 이미 잘 작성되어 있는 신뢰할 만한 cookbook들을 활용하면 적은 양의 코드로 원하는 작업들을 손쉽게 해결 할 수 있는 매력이 있다.
 
+지금까지 작성한 cookbook의 전체 코드는 아래 github에 공유되어 있다.
+- https://github.com/kghoon/my-app-cookbook
+
 다음 포스팅에서는 지금까지 작성한 cookbook을 Test kitchen이 아닌 Cloud Formation을 사용하여 프로비저닝하는 과정을 살펴 보려고 한다.
 
 
