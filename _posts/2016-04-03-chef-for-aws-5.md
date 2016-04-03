@@ -52,7 +52,7 @@ Reverse Proxy 설정
 ---
 이제 80번 포트로 오는 요청을 8080 포트를 리스닝 중인 톰캣으로 전달해주는 Proxy 설정을 Nginx에 추가해보자.
 
-`chef generate template <FILENAME>` 을 실행하여 reverse proxy nginx configuration 설정을 작성할 template파일을 하나 생성한다.
+`chef generate template <FILENAME>` 을 실행하여 nginx proxy 설정을 담을 template파일을 하나 생성한다.
 
 {% highlight bash %}
 $ chef generate template nginx-proxy.conf
