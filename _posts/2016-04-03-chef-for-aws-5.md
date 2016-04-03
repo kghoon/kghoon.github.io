@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "EC2 인스턴스 프로비저닝을 위한 Chef #5"
-categories: chef aws
+categories: chef
 comments: true
 ---
 

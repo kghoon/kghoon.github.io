@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "EC2 인스턴스 프로비저닝을 위한 Chef #4"
-categories: chef aws
+categories: chef
 comments: true
 ---
 
-EC2 인스턴스에 Tomcat을 설치하고 Sample application을 deploy하는 과정을 설명한다
+EC2 인스턴스에 Tomcat을 설치하고 Sample application을 deploy하는 과정을 설명한
 
 Tomcat 설치
 -----
