@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "EC2 인스턴스 프로비저닝을 위한 Chef #5"
+title:  "Chef for AWS - Nginx 설치"
 categories: chef
 comments: true
 ---

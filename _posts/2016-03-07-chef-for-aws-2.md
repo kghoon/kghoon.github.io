@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "EC2 인스턴스 프로비저닝을 위한 Chef #2"
+title:  "Chef for AWS - EC2를 Test kitchen으로 설정하기"
 categories: chef
 comments: true
 ---

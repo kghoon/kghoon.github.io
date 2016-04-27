@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "EC2 인스턴스 프로비저닝을 위한 Chef #4"
+title:  "Chef for AWS - Tomcat 설치 및 App deploy"
 categories: chef
 comments: true
 ---
